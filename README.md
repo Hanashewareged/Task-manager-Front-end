@@ -1,5 +1,7 @@
 # Task-manager-Front-end
 BY HANA SHEWAREGED
+ 
+ 
  Simple Task Manager
 
 This is a simple frontend-only Task Manager application built with HTML, CSS (Tailwind CSS), and JavaScript. It allows users to manage their daily tasks with basic functionalities.
