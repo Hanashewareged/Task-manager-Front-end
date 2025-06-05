@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Adding the background image to the body */
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/014/938/026/small_2x/businessman-hand-project-manager-working-and-update-tasks-and-gantt-chart-scheduling-virtual-diagram-with-smart-phone-tablet-and-laptop-in-office-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff; /* Fallback color */
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.task-item.completed {
+    background-color: #f0fdf4;
+    border-left: 4px solid #22c55e;
+}
+
+.task-item.incomplete {
+    background-color: #f9fafb;
+    border-left: 4px solid #bfdbfe;
+}
+
+.task-title.completed-text {
+    text-decoration: line-through;
+    color: #6b7280;
+    font-style: italic;
+}
+
+.task-title.incomplete-text {
+    color: #1f2937;
+    font-weight: 500;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input {
+    color: #374151;
+}
+
+input::placeholder {
+    color: #9ca3af;
+}
+
+.checkbox-hidden-sm-block-md {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .checkbox-hidden-sm-block-md {
+        display: block;
+    }
+}
